@@ -1,20 +1,25 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-    display: flex;
     height: 100vh;
     width: 100vw;
+    background-color: #3972f1;
+    display: flex;
 `;
 
 export const LeftContainer = styled.div`
-    background-color: #3972f1;
     height: 100%;
     width: 100%;
     max-width: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
-`;
+
+    img {
+        width: 60%;
+    }
+`
+;
 
 export const RightContainer = styled.div`
     display: flex;
@@ -24,7 +29,8 @@ export const RightContainer = styled.div`
     height: 100%;
     width: 100%;
     max-width: 50%;
-    background-color: #3972f1;
+    justify-content: center;
+    align-items: center;
 
     p{
         color: #04373a;
@@ -64,6 +70,7 @@ export const InputContainer = styled.div`
     flex-direction: column;
     gap: 5px;
     width: 100%;
+    
 
     input {
         width: 100%;

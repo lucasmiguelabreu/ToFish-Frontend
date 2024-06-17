@@ -14,6 +14,10 @@ export const LeftContainer = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
+
+    img {
+        height: 70%;
+    }
 `;
 
 export const RightContainer = styled.div`
@@ -59,6 +63,7 @@ export const InputContainer = styled.div`
     flex-direction: column;
     gap: 5px;
     width: 100%;
+
 
     input {
         width: 100%;
